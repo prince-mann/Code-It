@@ -19,13 +19,11 @@ Code-It is a search engine designed to help users find coding problems. Using th
 
 ## Demo
 ### Home Page
-![Home Page](codequery\public\Screenshot 2024-06-29 172555.png)
-
+![Code-It/public/Screenshot 2024-06-29 172555.png](<public/Screenshot 2024-06-29 172555.png>)
 ### Search Results
-![Search Results](codequery\public\Screenshot 2024-06-29 172718.png)
-
+![Code-It/public/Screenshot 2024-06-29 172718.png](<public/Screenshot 2024-06-29 172718.png>)
 ### Detailed View
-![Detailed View](codequery\public\Screenshot 2024-06-29 172731.png)
+![Code-It/public/Screenshot 2024-06-29 172731.png](<public/Screenshot 2024-06-29 172731.png>)
 
 
 ## Installation Instructions
