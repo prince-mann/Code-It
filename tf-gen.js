@@ -166,3 +166,32 @@ IDF.forEach((word) => {
   fs.appendFileSync("IDF.txt", word + "\n");
 });
 
+let TFIDF = new Array(N);
+
+for (let i = 0; i < N; i++) {
+  TFIDF[i] = new Array(W);
+  for (let j = 0; j < W; j++) {
+    TFIDF[i][j] = TF[i][j] * IDF[j];
+  }
+}
+
+// console.log("TFIDF cal done");
+
+for (let i = 0; i < N; i++) {
+  for (let j = 0; j < W; j++) {
+    if (TFIDF[i][j] != 0)
+      fs.appendFileSync("TFIDF.txt", i + " " + j + " " + TFIDF[i][j] + "\n");
+  }
+
+  fs.appendFileSync("TFIDF.txt", "\n".toString());
+}
+
+for (let i = 0; i < N; i++) {
+  let sqrsum = 0;
+  for (let j = 0; j < W; j++) {
+    sqrsum += TFIDF[i][j] * TFIDF[i][j];
+  }
+
+  fs.appendFileSync("Magnitude.txt", Math.sqrt(sqrsum) + "\n");
+}
+
