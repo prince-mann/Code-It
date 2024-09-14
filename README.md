@@ -4,11 +4,11 @@
 Code-It is a search engine designed to help users find coding problems. Using the TF-IDF (Term Frequency-Inverse Document Frequency) algorithm, Code-It processes user queries and retrieves the most relevant coding problems. Its intuitive interface ensures users can easily navigate and find the coding challenges they need.
 
 ## Author
-- [@Princemann56](https://github.com/Princemann56)
+- [@PrinceMann](https://github.com/prince-mann)
 
 ## Tech Stack
 - **Client:** EJS
-- **Server:** Node, Express, AWS
+- **Server:** Node, Express
 
 ## Features
 1. Developed a high-performance search engine using the MERN stack, incorporating modern web technologies to deliver a seamless user experience.
@@ -19,19 +19,17 @@ Code-It is a search engine designed to help users find coding problems. Using th
 
 ## Demo
 ### Home Page
-![Home Page](codequery\public\Screenshot 2024-06-29 172555.png)
-
+![Code-It/public/Screenshot 2024-06-29 172555.png](<public/Screenshot 2024-06-29 172555.png>)
 ### Search Results
-![Search Results](codequery\public\Screenshot 2024-06-29 172718.png)
-
+![Code-It/public/Screenshot 2024-06-29 172718.png](<public/Screenshot 2024-06-29 172718.png>)
 ### Detailed View
-![Detailed View](codequery\public\Screenshot 2024-06-29 172731.png)
+![Code-It/public/Screenshot 2024-06-29 172731.png](<public/Screenshot 2024-06-29 172731.png>)
 
 
 ## Installation Instructions
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Princemann56/Codeit.git
+   git clone https://github.com/prince-mann/Code-It.git
 
 2. Navigate to the project directory:
    ```bash
